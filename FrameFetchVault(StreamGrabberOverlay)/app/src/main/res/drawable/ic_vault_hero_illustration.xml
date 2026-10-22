@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <!-- Background Frame -->
+    <path android:pathData="M0,0h320v180h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="320"
+                android:endY="180"
+                android:type="linear">
+                <item android:color="#0D1520" android:offset="0.0" />
+                <item android:color="#080B11" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Glowing Tactical Viewfinder Brackets -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M24,20h36v4H28v32h-4V20zM260,20h36v36h-4V24h-32V20zM24,124h4v32h32v4H24v-36zM292,124h4v36h-36v-4h32v-32z" />
+    <!-- Inner Subtle Frame Grid -->
+    <path
+        android:strokeColor="#1E2D42"
+        android:strokeWidth="1.5"
+        android:pathData="M44,36h232v108h-232z" />
+    <!-- Central Video Card & Vault Download Emblem -->
+    <path
+        android:fillColor="#132030"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:pathData="M104,48h112v68h-112z" />
+    <!-- Play Triangle -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M148,66l28,16l-28,16z" />
+    <!-- Vault Download Badge -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M140,126h40v8h-40zM156,104h8v14h6l-10,10l-10,-10h6z" />
+</vector>

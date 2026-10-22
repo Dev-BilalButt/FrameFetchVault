@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FrameFetch Vault</string>
+    <string name="nav_workspace">Framed Browser</string>
+    <string name="nav_overlay">Border Overlay</string>
+    <string name="nav_vault">Private Vault</string>
+    <string name="border_status_idle">BORDER STANDBY</string>
+    <string name="border_status_scanning">SCANNING STREAMS</string>
+    <string name="border_status_detected">VIDEO STREAM LOCKED</string>
+    <string name="border_status_downloading">DOWNLOADING TO VAULT</string>
+    <string name="url_bar_placeholder">Enter website URL or video link inside border…</string>
+    <string name="action_extract_streams">Inspect &amp; Download</string>
+    <string name="action_download_to_vault">Download to Separate Vault</string>
+    <string name="overlay_permission_title">Display Over Other Apps</string>
+    <string name="overlay_permission_desc">Allow FrameFetch Vault to draw a live capture border around your phone screen and show a floating extract control over other apps.</string>
+    <string name="overlay_grant_button">Grant Overlay Permission</string>
+    <string name="overlay_active_label">System Border Active</string>
+    <string name="overlay_inactive_label">System Border Inactive</string>
+    <string name="vault_storage_title">Isolated Private Vault Partition</string>
+    <string name="vault_empty_title">Your Private Video Vault is Empty</string>
+    <string name="vault_empty_subtitle">Open any video website inside the Framed Browser or capture a video link with the System Border to save videos into isolated mobile storage.</string>
+    <string name="stream_inspector_title">Detected Video Streams</string>
+    <string name="stream_inspector_subtitle">Select resolution &amp; container format to download into isolated vault storage</string>
+</resources>
